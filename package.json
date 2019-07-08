@@ -1,6 +1,6 @@
 {
     "name": "db-discord",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "description": "",
     "main": "bin/index.js",
     "types": "bin/index.d.ts",
@@ -22,7 +22,7 @@
     "dependencies": {
         "@types/node": "^12.0.10",
         "@types/xregexp": "^3.0.30",
-        "db-discord-discord.js": "^11.5.1",
+        "db-discord-discord.js": "^11.5.3",
         "xregexp": "^4.2.4"
     },
     "devDependencies": {
@@ -30,13 +30,9 @@
         "@types/mocha": "^5.2.7",
         "@types/sinon": "^7.0.13",
         "chai": "^4.2.0",
-        "declaration-bundler-webpack-plugin": "^1.0.3",
         "mocha": "^6.1.4",
         "sinon": "^7.3.2",
-        "ts-loader": "^6.0.4",
         "ts-node": "^8.3.0",
-        "typescript": "^3.5.2",
-        "webpack": "^4.35.2",
-        "webpack-cli": "^3.3.5"
+        "typescript": "^3.5.2"
     }
 }
