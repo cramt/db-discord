@@ -11,7 +11,6 @@ function it5000(str: string, f: () => void) {
 describe("test", () => {
     const client = new Discord.Client();
 
-
     it5000("login to discord", async () => {
         let promise = new Promise((resolve, reject) => {
             client.on("ready", () => {

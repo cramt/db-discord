@@ -2,8 +2,8 @@
     "name": "db-discord",
     "version": "0.1.9",
     "description": "",
-    "main": "bin/db-discord.js",
-    "types": "bin/db-discord.d.ts",
+    "main": "bin/index.js",
+    "types": "bin/index.d.ts",
     "scripts": {
         "test": "mocha -r ts-node/register src/tests/main.ts",
         "test:fill": "mocha -r ts-node/register src/tests/fill.ts",
